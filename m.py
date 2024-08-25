@@ -153,7 +153,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "You have not purchased yet purchase now from:- @venomXcrazy."
+        response = "You have not purchased yet purchase now from (Bhai Kharif Le Kyun Garib Mari kar rha hai):- @satyaprakash_vyas."
 
     bot.reply_to(message, response)
 
@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "You have not purchased yet purchase now from:- @venomXcrazy 🙇."
+        response = "You have not purchased yet purchase now from (kharid le bhai sasta lga dunga tere ko, kisi ko btayio mat):- @satyaprakash_vyas 🙇."
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "You have not purchased yet purchase now from :- @venomXcrazy ❄."
+        response = "You have not purchased yet purchase now from ( Pesa to hath ka mel hai, chadta utarta rahta hai. Mere ko Massage kar tere ko sasta bhav laga dunga ):- @satyaprakash_vyas ❄."
     bot.reply_to(message, response)
 
 
@@ -357,8 +357,8 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @venomXcrazy
-Official Channel :- https://t.me/V3NOM_CH3AT
+Buy From :- @satyaprakash_vyas
+Instagram :- https://www.instagram.com/satyaprakash_vyas?igsh=MW15dnUzdXJna3N3bg==
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -375,7 +375,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @venomXcrazy'''
+✅BUY ( Yahan se kharid le 😀 ) :- @satyaprakash_vyas'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -383,10 +383,10 @@ def welcome_rules(message):
     user_name = message.from_user.first_name
     response = f'''{user_name} Please Follow These Rules ⚠️:
 
+अच्छे से पढ़ लियो भाई लोग 😁😁😅
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
-3. MAKE SURE YOU JOINED https://t.me/venomcha7 OTHERWISE NOT WORK
-4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
+3. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
@@ -400,9 +400,11 @@ Vip 🌟 :
 -> Concurrents Attack : 5
 
 Pr-ice List💸 :
-Day-->80 Rs
-Week-->400 Rs
-Month-->1000 Rs
+Hours-->40Rs
+Day-->69 Rs
+Week-->349 Rs
+Month-->1199 Rs
+रुपयों का आंकड़ा बदलता रहता है, कभी भी मूल्यों को बदला जा सकता है।
 '''
     bot.reply_to(message, response)
 
